@@ -1,0 +1,99 @@
+/* 外层键盘样式 */
+.keyboard {
+    position: relative;
+    width: 1400px;
+    margin: 100px auto;
+    display: grid;
+    border-radius: 15px;
+    padding: 18px;
+    border: 1px solid #000;
+
+    .keyflex {
+        display: flex;
+    }
+
+    .none {
+        visibility: hidden;
+    }
+
+    .none1 {
+        width: 20px;
+        visibility: hidden;
+    }
+
+    .Backspace {
+        width: 110px;
+    }
+
+    .Caps {
+        width: 95px;
+    }
+
+    .Tab {
+        width: 85px;
+    }
+
+    .L-Shift {
+        width: 130px;
+    }
+
+    .R-Shift {
+        width: 150px;
+    }
+
+    .\\ {
+        width: 75px;
+    }
+
+    .Ctrl,
+    .Cmd,
+    .Opt,
+    .Fn1 {
+        width: 65px;
+    }
+
+    .Spacebar {
+        width: 365px;
+    }
+
+    .Num0 {
+        width: 110px;
+    }
+
+    .NumLock {
+        word-wrap: break-word;
+    }
+
+    .NumRight {
+        height: 110px;
+        position: absolute;
+        right: 37px;
+    }
+
+    .EnterRight {
+        height: 110px;
+        position: absolute;
+        right: 37px;
+    }
+}
+
+.reset {
+    text-align: center;
+}
+
+.reset>button {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+/* 键样式 */
+.key {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
