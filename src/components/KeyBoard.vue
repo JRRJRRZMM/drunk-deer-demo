@@ -77,10 +77,11 @@ const blurColor = () => {
     });
 }
 
-//重置
+//重置样式
 const reset = () => {
     seTselected()
 }
+
 </script>
 
 <template>
