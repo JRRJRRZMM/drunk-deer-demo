@@ -1,15 +1,44 @@
 /* 外层键盘样式 */
 .keyboard {
     position: relative;
-    width: 1400px;
+    width: 1390px;
     margin: 100px auto;
     display: grid;
     border-radius: 15px;
     padding: 18px;
     border: 1px solid #000;
 
-    .keyflex {
-        display: flex;
+    .Esc {
+        margin-right: 60px;
+    }
+
+    .F5,
+    .F9,
+    .Prt,
+    .A1,
+    .Ins,
+    .NumLock,
+    .Del,
+    .Num7,
+    .Num0 {
+        margin-left: 40px;
+    }
+
+    .Num4 {
+        margin-left: 250px;
+    }
+
+    .⬆,
+    .Num1 {
+        margin-left: 100px;
+    }
+
+    .⬅ {
+        margin-left: 40px;
+    }
+
+    .Enter74 {
+        width: 125px;
     }
 
     .none {
@@ -67,13 +96,13 @@
     .NumRight {
         height: 110px;
         position: absolute;
-        right: 37px;
+        right: 25px;
     }
 
     .EnterRight {
         height: 110px;
         position: absolute;
-        right: 37px;
+        right: 25px;
     }
 }
 
@@ -87,6 +116,7 @@
     border-radius: 10px;
     font-size: 30px;
 }
+
 /* 键样式 */
 .key {
     width: 50px;
